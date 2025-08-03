@@ -1,7 +1,10 @@
+/*Makes sure the dabase is clear dropping the tables that will be then created. Creates database content.*/
+
 DROP TABLE IF EXISTS PC;
 DROP TABLE IF EXISTS Laptop;
 DROP TABLE IF EXISTS Printer;
 DROP TABLE IF EXISTS Product;
+
 
 CREATE TABLE Product (
     maker VARCHAR(50) NOT NULL,
